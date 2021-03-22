@@ -1,0 +1,35 @@
+.org 0x000
+
+LOAD MQ,M(E)
+MUL M(F)
+LOAD MQ
+STOR M(aux)
+LOAD M(D)
+SUB M(aux)
+STOR M(aux)
+LOAD M(A)
+SUB M(B)
+MUL M(C)
+LOAD MQ
+DIV M(aux)
+LOAD MQ
+STOR M(x)
+
+.org 0x100
+
+A:
+.word 0x0000000000
+B:
+.word 0x0000000001
+C:
+.word 0x0000000001
+D:
+.word 0x0000000001
+E:
+.word 0x0000000001
+F:
+.word 0x0000000002
+aux:
+.word 0x0000000000
+x:
+.word 0x0000000000

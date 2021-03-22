@@ -1,0 +1,21 @@
+.org 0x000
+
+LOAD M(value1)
+ADD M(value2)
+STOR M(soma)
+
+LOAD M(value1)
+SUB M(value2)
+STOR M(subtracao)
+
+.org 0x100
+value1:
+.word 0x0000000001
+value2:
+.word 0x0000000001
+
+.org 0x110
+soma:
+.word 0x0000000000
+subtracao:
+.word 0x0000000000

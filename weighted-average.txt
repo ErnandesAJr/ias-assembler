@@ -1,0 +1,60 @@
+.org 0x000
+
+LOAD M(test_grade1)
+MUL M(weight1)
+STOR M(test1)
+
+LOAD M(test_grade2)
+MUL M(weight2)
+STOR M(test2)
+
+LOAD M(test_grade3)
+MUL M(weight3)
+STOR M(test3)
+
+LOAD M(test1)
+ADD M(test2)
+ADD M(test3)
+STOR M(sum_test_grade)
+
+LOAD M(weight1)
+ADD M(weight2)
+ADD M(weight3)
+STOR M(sum_test)
+
+LOAD M(sum_test_grade)
+DIV M(sum_test)
+STOR M(average)
+
+
+.org 0x100
+average:
+.word 0x0000000001
+
+.org 0x101
+test_grade1:
+.word 0x0000000001
+weight1:
+.word 0x0000000001
+test1:
+.word 0x0000000001
+
+test_grade2:
+.word 0x0000000001
+weight2:
+.word 0x0000000001
+test2:
+.word 0x0000000001
+
+test_grade3:
+.word 0x0000000001
+weight3:
+.word 0x0000000001
+test3:
+.word 0x0000000001
+
+sum_test_grade:
+.word 0x0000000001
+
+sum_test:
+.word 0x0000000001

@@ -1,0 +1,12 @@
+.org 0x000
+
+repeat:
+    LOAD M(initial)
+    ADD M(const)
+    STOR M(initial)
+    JUMP M(repeat)
+    .org 0x100
+    initial:
+    .word 0x0000000000
+    const:
+    .word 0x0000000001

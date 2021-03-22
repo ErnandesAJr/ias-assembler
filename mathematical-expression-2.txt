@@ -1,0 +1,29 @@
+.org 0x000
+
+LOAD M(A)
+ADD M(B)
+STOR M(soma_a_b)
+
+LOAD M(C)
+ADD M(D)
+STOR M(soma_c_d)
+
+LOAD M(soma_a_b)
+SUB M(soma_c_d)
+STOR M(A)
+
+
+
+.org 0x100
+A:
+.word 0x0000000002
+B:
+.word 0x0000000002
+soma_a_b:
+.word 0x0000000000
+C:
+.word 0x0000000001
+D:
+.word 0x0000000001
+soma_c_d:
+.word 0x0000000000
