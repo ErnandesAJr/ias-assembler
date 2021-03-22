@@ -10,36 +10,36 @@
 
     The IAS computer was one of the first computers to implement a “stored program concept”. In this paradigm, the program is stored in the computer's memory along with the data. In this way, the generation and loading of programs can be done in an automated way, by the computer itself. The IAS computer was developed at the Institute for Advanced Studies at Princeton and its construction was led by John von Neumann, a mathematician who contributed greatly to the field of computer science.
 
-## Materiais de estudo
+## Study materials
 
-    https://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/anexos/programando_o_IAS.pdf
+- [Programming the IAS](https://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/anexos/programando_o_IAS.pdf)
 
-    https://faculty.tarleton.edu/agapie/documents/cs_343_arch/10_Instruction_Sets_characteristics2.pdf
+- [10_Instruction_Sets_characteristics2](https://faculty.tarleton.edu/agapie/documents/cs_343_arch/10_Instruction_Sets_characteristics2.pdf)
 
-    https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+- [Linux System Call Table for x86](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
 
-## Exercicios Resolvidos
+## Solved Exercises
 
-1 - Implemente um Incrementador e um Decrementador
+- Implement an Incrementor and a Decrementor
 
-2 - Implemente a expressão abaixo utilizando:
+  ![Incrementer](docs/images/code-incrementer.png)
+  ![Decrement](docs/images/code-decrement.png)
 
-    x = ((A − B) × C) / (D − (E × F))
+- Implement the expression below:
+
+  _x = ((A − B) × C) / (D − (E × F))_
 
 ## How to Run
 
-- Make a fork;
-- Configure the `.env` file according to the `.env.template`
-  - You will need an account with **MongoDB**, **PipeDrive** and **Bling**
+- Access the simulator: [IAS–Assembler](http://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/IAS-Assembler/assembler.html);
+
+- Copy and paste the exercise you want to highlight
+
+  ![Decrement](docs/images/code-decrement.png)
+
 - Open the project on your terminal;
 - Run `npm install` to install Dependencies;
 - Run `npm run dev` to run the index;
-
-- [IAS–Assembler](http://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/IAS-Assembler/assembler.html).
-
-## Project structure
-
-![Struture](docs/images/project-struture.PNG)
 
 ## Links and Videos
 
