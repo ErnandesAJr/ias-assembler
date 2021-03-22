@@ -2,23 +2,23 @@
 
 # IAS - ASSEMBLER 💥
 
-### 🤯 About
+## 🤯 **About**
 
-    Just a test of how the assembly works.
+    Just a test of how the assembly works 🙇‍♂️.
 
-## Curiosity
+## 🗯️ **Curiosity**
 
     The IAS computer was one of the first computers to implement a “stored program concept”. In this paradigm, the program is stored in the computer's memory along with the data. In this way, the generation and loading of programs can be done in an automated way, by the computer itself. The IAS computer was developed at the Institute for Advanced Studies at Princeton and its construction was led by John von Neumann, a mathematician who contributed greatly to the field of computer science.
 
-## Study materials
+## 📚 **Study materials**
 
 - [Programming the IAS](https://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/anexos/programando_o_IAS.pdf)
 
-- [10_Instruction_Sets_characteristics2](https://faculty.tarleton.edu/agapie/documents/cs_343_arch/10_Instruction_Sets_characteristics2.pdf)
+- [Instruction Sets Characteristics](https://faculty.tarleton.edu/agapie/documents/cs_343_arch/10_Instruction_Sets_characteristics2.pdf)
 
 - [Linux System Call Table for x86](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
 
-## Solved Exercises
+## 📄 **Solved Exercises**
 
 - Implement an Incrementor and a Decrementor
 
@@ -29,7 +29,7 @@
 
   `x = ((A − B) × C) / (D − (E × F))`
 
-## How to Run
+## 💻 **How to Run**
 
 - Access the simulator: [IAS–Assembler](http://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/IAS-Assembler/assembler.html);
 
@@ -49,7 +49,7 @@
 
   ![Button Step](docs/images/simulator-step-view.png)
 
-## Links and Videos
+## 📌 **Links and Videos**
 
 - [Assembly Language & Computer Architecture](https://www.youtube.com/watch?v=L1ung0wil9Y)
 
