@@ -51,6 +51,8 @@
 
 ## 📌 **Links and Videos**
 
+- [Tutorial: Using the Assembler](https://www.ic.unicamp.br/en/~edson/disciplinas/mc404/2017-2s/abef/labs/lab04/lab04.html)
+
 - [Assembly Language & Computer Architecture](https://www.youtube.com/watch?v=L1ung0wil9Y)
 
 - [What Is Assembly Language?](https://www.youtube.com/watch?v=1FXhjErUz58)
