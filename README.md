@@ -27,19 +27,27 @@
 
 - Implement the expression below:
 
-  _x = ((A − B) × C) / (D − (E × F))_
+  `x = ((A − B) × C) / (D − (E × F))`
 
 ## How to Run
 
 - Access the simulator: [IAS–Assembler](http://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/IAS-Assembler/assembler.html);
 
-- Copy and paste the exercise you want to highlight
+- Copy and paste the file you want to test
 
-  ![Decrement](docs/images/code-decrement.png)
+- Just click on **Load IAS Sim**
 
-- Open the project on your terminal;
-- Run `npm install` to install Dependencies;
-- Run `npm run dev` to run the index;
+  ![Load IAS Sim](docs/images/load-ias-sim-initial.png)
+
+- Maximize the IAS Simulator window
+
+- Click in **Load Mem. Map into IAS Memory**
+
+  ![Load Mem](docs/images/load-code-simulator.png)
+
+- Now click on **Step** and visualize the memories being filled
+
+  ![Button Step](docs/images/simulator-step-view.png)
 
 ## Links and Videos
 
